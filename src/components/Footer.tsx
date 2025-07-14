@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "../assets/Logo for riverfront .png";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
@@ -29,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Links */}
+          {/* as */}
           <div className="flex gap-6 text-xs text-gray-400 mt-6 flex-wrap">
             <a href="/terms" className="hover:text-white">
               Terms & Conditions
@@ -49,14 +48,14 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Explore</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
 
             <li>
-              <Link to="/about">About Us</Link>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -66,22 +65,22 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Insights</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>
-              <Link to="/why-invest-in-dubai">Why Invest In Dubai</Link>
+              <a href="/why-invest-in-dubai">Why Invest In Dubai</a>
             </li>
             <li>
-              <Link to="/about-dubai">About Dubai</Link>
+              <a href="/about-dubai">About Dubai</a>
             </li>
             <li>
-              <Link to="/buyers-guide">Buyer's Guide</Link>
+              <a href="/buyers-guide">Buyer's Guide</a>
             </li>
             <li>
-              <Link to="/sellers-guide">Seller's Guide</Link>
+              <a href="/sellers-guide">Seller's Guide</a>
             </li>
             <li>
-              <Link to="/relocating-to-dubai">Relocating To Dubai</Link>
+              <a href="/relocating-to-dubai">Relocating To Dubai</a>
             </li>
             <li>
-              <Link to="/faq">FAQ</Link>
+              <a href="/faq">FAQ</a>
             </li>
           </ul>
         </div>
