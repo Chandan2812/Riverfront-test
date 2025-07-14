@@ -13,7 +13,6 @@ const PropertyForm: React.FC<Props> = ({ onClose }) => {
     bedrooms: "",
     size: "",
     message: "",
-    titleDeed: false,
   });
 
   const handleChange = (
@@ -116,13 +115,6 @@ const PropertyForm: React.FC<Props> = ({ onClose }) => {
             required
             onChange={handleChange}
           />
-
-          <div className="flex items-center gap-2">
-            <input type="checkbox" name="titleDeed" onChange={handleChange} />
-            <label htmlFor="titleDeed" className="text-sm text-gray-700">
-              Do you have a title deed?
-            </label>
-          </div>
 
           <button
             type="submit"
